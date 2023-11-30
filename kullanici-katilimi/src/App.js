@@ -35,9 +35,7 @@ const App = () => {
         member={editedMember}
         updateMember={updateMember}
       />
-      <h2 style={{ marginTop: "2%", color: " #2B2A4C" }}>
-        ÜYE LİSTESİ{" "}
-      </h2>
+      <h2 style={{ marginTop: "2%", color: " #2B2A4C" }}>ÜYE LİSTESİ </h2>
       <ul>
         {memberList.map((member, index) => (
           <div data-cy="teamList" className="member" key={index}>
