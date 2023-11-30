@@ -148,7 +148,7 @@ const Form = ({ addMember, member, updateMember }) => {
           <FormFeedback>{formErrs.password}</FormFeedback>
         </FormGroup>
         <FormGroup>
-          <Label for="termsService"> Kullanım Şartları </Label>
+          <Label for="termsService"> Kullanım Koşulları </Label>
           <Input
             type="checkbox"
             name="termsService"
